@@ -8,6 +8,8 @@ function About() {
       <p>About</p>
       <p>akhil</p>
       <p>Shijil</p>
+      <p>dhananjayanSharma</p>
+      <p>abijith</p>
     </>
   )
 }
