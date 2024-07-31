@@ -7,9 +7,6 @@ function Home() {
   return (
     <>
     <div>
-        {/* basic profile section */}
-    </div>
-    <div>
         {/* postes posted by different person */}
         <WorkList/>
     </div>
