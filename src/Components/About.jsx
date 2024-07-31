@@ -5,10 +5,9 @@ import React from 'react'
 function About() {
   return (
     <>
-      <p>About</p>
-      <p>akhil</p>
-      <p>Shijil</p>
+     
     </>
+    
   )
 }
 
