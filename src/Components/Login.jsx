@@ -2,6 +2,7 @@
 
 import React from 'react'
 import TextField from '@mui/material/TextField';
+import { Link } from 'react-router-dom';
 
 
 
@@ -18,6 +19,10 @@ function Login() {
                    <TextField className='mt-3' id="standard-basic" label="Password" variant="standard" />
                    <button className='btn btn-success mt-4'>Login</button>
                 </div>
+                <div className='mt-3 '>
+                 <small >New user? Click here to<Link to={"/register"}>Create Account</Link></small>
+    
+              </div>
   
             <div>
   

@@ -9,7 +9,7 @@ function Profile() {
     <>
     <div>
     <div className='w-100 d-flex justify-content-center align-items-center' style={{height:'700px'}}>
-     <div className='container bg-warning rounded-4' style={{height:'400px',position:'relative'}}>
+     <div className='container bg-warning rounded-4 m-3' style={{height:'400px',position:'relative'}}>
      <div className='d-flex justify-content-center' style={{position:'absolute',width:'100%',marginTop:'-100px'}}> <div style={{height:'200px',width:'200px',position:'absolute',borderRadius:'50%'}}className=''><img style={{borderRadius:'50%'}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzCW8ayM9K_iNzX81NSjgpGcl30jDvsTSiIg&s" alt=""height={'200px'} width={'200px'} /></div></div>
       <div className="row mt-5">
         <div className="col-md-2"></div>
