@@ -15,17 +15,14 @@ function Notification() {
 
     <Modal show={show} onHide={handleClose} animation={false}  centered>
         <Modal.Header closeButton>
-          <Modal.Title className='text-success'>Share your contact they will call you soon</Modal.Title>
+          <Modal.Title className='text-success'>Notification</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           
         </Modal.Body>
         <Modal.Footer>
           <Button variant="danger" onClick={handleClose}>
-            Cancel
-          </Button>
-          <Button variant="success" onClick={handleClose}>
-            Share
+            close
           </Button>
         </Modal.Footer>
       </Modal>

@@ -54,7 +54,7 @@ function Home() {
          </div>
           </div>
           <div className="col-md-3 d-flex justify-content-center align-items-center my-3">
-              <Button variant="danger" className='rounded-5'>View Directory <sup style={{color:'yellow'}}>premium</sup></Button>
+              <Link to={'/directory'}><Button variant="danger" className='rounded-5'>View Directory <sup style={{color:'yellow'}}>premium</sup></Button></Link>
           </div>
           <div className="col-md-3"></div>
         
@@ -64,7 +64,7 @@ function Home() {
 
       {/* Job post Section */}
       <div> 
-          <div className="row d-flex justify-content-around align-items-center">
+          <div className="row d-flex  align-items-center">
             <div className="col-md-4 d-flex justify-content-center align-items-center p-5">
             <WorkList/>
             </div>

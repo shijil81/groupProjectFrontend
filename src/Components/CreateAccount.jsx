@@ -1,6 +1,6 @@
 // design only create account forms include profile picture upload
 
-import React from 'react'
+import React, { useState } from 'react'
 import TextField from '@mui/material/TextField';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
@@ -10,11 +10,12 @@ import { Link } from 'react-router-dom';
 
 
 
+
 function CreateAccount() {
-  const [age, setAge] = React.useState('');
+  const [place, setPlace] = useState('');
 
   const handleChange = (event) => {
-    setAge(event.target.value);
+    setPlace(event.target.value);
   };
   return (
    
@@ -34,31 +35,28 @@ function CreateAccount() {
             <FormControl className='mt-4' variant="standard" sx={{ m: 1, minWidth: 200 }}>
           <InputLabel id="demo-simple-select-standard-label">District</InputLabel>
           <Select
-            labelId="demo-simple-select-standard-label"
-            id="demo-simple-select-standard"
-            value={age}
-            onChange={handleChange}
-            label="Age"
-          >
-            <MenuItem value="">
-              <em>None</em>
-            </MenuItem>
-            <MenuItem value={10}>kasaragod</MenuItem>
-            <MenuItem value={20}>kannur</MenuItem>
-            <MenuItem value={30}>kozhikode</MenuItem>
-            <MenuItem value={40}>wayanad</MenuItem>
-            <MenuItem value={50}>kochi</MenuItem>
-            <MenuItem value={60}>kotta</MenuItem>
-  
-  
-  
-          </Select>
+        labelId="demo-simple-select-standard-label"
+        id="demo-simple-select-standard"
+        value={place}
+        onChange={handleChange}
+        label="Place"
+      >
+        <MenuItem value="">
+          <em>None</em>
+        </MenuItem>
+        <MenuItem value="kasaragod">Kasaragod</MenuItem>
+        <MenuItem value="kannur">Kannur</MenuItem>
+        <MenuItem value="kozhikode">Kozhikode</MenuItem>
+        <MenuItem value="wayanad">Wayanad</MenuItem>
+        <MenuItem value="kochi">Kochi</MenuItem>
+        <MenuItem value="kottayam">Kottayam</MenuItem>
+      </Select>
             </FormControl>
             <TextField className=' ms-2  '
             id="standard-multiline-static"
             label="Address"
             multiline
-            rows={3}
+            rows={2}
             variant="standard"
           />
             
@@ -73,7 +71,7 @@ function CreateAccount() {
                <button className='btn btn-success  w-100'>Register</button>
                </div>
               <div className='mt-3 '>
-                 <small  >Already a user? Click here to<Link to={"/login"}>Login</Link></small>
+                 <small  >Already a user? Click here to <Link to={"/login"} style={{textDecoration:'none'}} className='fw-bold'>Login</Link></small>
     
               </div>
      

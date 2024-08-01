@@ -33,10 +33,34 @@ function Profile() {
      </div>
    </div>
     </div>
+
+    <hr style={{ border: '1px dashed black' }} />
     
     <div>
         {/* Their Posts */}
-        <Posts/>
+        <div className="row d-flex align-item-center">
+            <div className="col-md-3 d-flex justify-content-center align-items-center p-5">
+            <Posts/>
+            </div>
+            <div className="col-md-3 d-flex justify-content-center align-items-center p-5">
+            <Posts/>
+            </div>
+            <div className="col-md-3 d-flex justify-content-center align-items-center p-5">
+            <Posts/>
+            </div>
+            <div className="col-md-3 d-flex justify-content-center align-items-center p-5">
+            <Posts/>
+            </div>
+            <div className="col-md-3 d-flex justify-content-center align-items-center p-5">
+            <Posts/>
+            </div>
+            <div className="col-md-3 d-flex justify-content-center align-items-center p-5">
+            <Posts/>
+            </div>
+            
+          </div>
+        
+        
     </div>
       
     </>

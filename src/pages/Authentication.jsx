@@ -9,10 +9,10 @@ function Authentication({register}) {
   return (
     <>
    {register?
-   <div> <CreateAccount/>  </div>
+   <div className='my-5'> <CreateAccount/>  </div>
     
     :
-    <div><Login/></div>
+    <div className='my-5'><Login/></div>
      }
     </>
   )

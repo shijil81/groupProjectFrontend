@@ -8,7 +8,8 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
 
-function AddPost() {
+function EditPost() {
+
     const [show, setShow] = useState(false);
     const [place, setPlace] = useState('');
 
@@ -21,10 +22,9 @@ function AddPost() {
   };
   return (
     <>
-      <button className='btn text-dark w-100 p-3 rounded-5' style={{backgroundColor:'lightgrey'}} onClick={handleShow}>Post your worker requirement here...</button>
+    <Button variant="info w-50 me-1" onClick={handleShow}>Edit</Button>
 
-
-      <Modal show={show} onHide={handleClose} animation={false} size='lg' centered>
+    <Modal show={show} onHide={handleClose} animation={false} size='lg' centered>
         <Modal.Header closeButton>
           <Modal.Title className='text-info'>Give details and Image of Works here..</Modal.Title>
         </Modal.Header>
@@ -33,11 +33,11 @@ function AddPost() {
             <div className="col-md-6">
              <label htmlFor='projImg'>
                 <input type="file" id='projImg' style={{display:'none'}}/>
-                <img src="https://www.freeiconspng.com/thumbs/upload-documents-icon/orange-square-button-document-file-page-up-upload-icon-5.jpeg" alt="no image" className='w-100' />
+                <img src="https://www.onlineflooringstore.com.au/wp-content/uploads/2020/05/clean-hardwood-timber-floors.jpg" alt="no image" className='w-100' />
              </label>
             </div>
             <div className="col-md-6">
-                <div className="mb-3">
+                <div className="my-3">
                   <input type="text" placeholder='Job Title' className='form-control' />
                 </div>
                 <div className="mb-3">
@@ -86,12 +86,14 @@ function AddPost() {
             Cancel
           </Button>
           <Button variant="success" onClick={handleClose}>
-            Post
+            Update
           </Button>
         </Modal.Footer>
       </Modal>
+
+      
     </>
   )
 }
 
-export default AddPost
+export default EditPost

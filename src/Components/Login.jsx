@@ -20,7 +20,7 @@ function Login() {
                    <button className='btn btn-success mt-4'>Login</button>
                 </div>
                 <div className='mt-3 '>
-                 <small >New user? Click here to<Link to={"/register"}>Create Account</Link></small>
+                 <small >New user? Click here to <Link to={"/register"} style={{textDecoration:'none' }} className='fw-bold'>Create Account</Link></small>
     
               </div>
   

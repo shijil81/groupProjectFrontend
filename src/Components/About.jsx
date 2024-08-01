@@ -53,7 +53,7 @@ function About() {
             <div className='d-flex'>
 
 
-              <div data-aos="fade-up-right"data-aos-duration="3000">
+              <div data-aos="fade-up-right"data-aos-duration="2000">
                 <h4 className='mt-4' style={{ color: 'black' }}>How does Quickhire works...</h4>
                 <p className='text-start ms-5'>Simply post your job and skilled labours near you will reply to your post . You can also access a directory of nearby workers with a small premium subscription .Our platform ansures a smooth and efficient hiring process</p>
 
@@ -66,7 +66,7 @@ function About() {
 
 
 
-            <div className='mt-4 ms-2 text-center'data-aos="fade-up-left"data-aos-duration="3000">
+            <div className='mt-4 ms-2 text-center'data-aos="fade-up-left"data-aos-duration="2000">
               <img src="dimage5.png" alt="" width={'80%'} />
             </div>
           </Col>
