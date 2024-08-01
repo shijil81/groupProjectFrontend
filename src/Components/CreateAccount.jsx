@@ -59,7 +59,6 @@ function CreateAccount() {
             label="Address"
             multiline
             rows={3}
-            defaultValue="kottodi house"
             variant="standard"
           />
             
@@ -74,7 +73,7 @@ function CreateAccount() {
                <button className='btn btn-success  w-100'>Register</button>
                </div>
               <div className='mt-3 '>
-                 <small  >Already a user? Click here to<Link>Login</Link></small>
+                 <small  >Already a user? Click here to<Link to={"/login"}>Login</Link></small>
     
               </div>
      

@@ -15,7 +15,6 @@ function About() {
   })
   return (
     <>
-
       <div className='container' >
 
         <Row >
