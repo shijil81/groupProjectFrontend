@@ -41,31 +41,6 @@ function Profile() {
         </div>
       </div>
      </div>
-
-
-
-
-
-
-      {/* <div className="row mt-5">
-        <div className="col-md-2"></div>
-        <div className="col-md-8 border-2" style={{justifyContent:'center'}}>
-        <div style={{height:'500px',display:'flex',justifyContent:'center'}}>
-        <div className='mt-5 ms-3 justify-content-center'>
-            <h2 className='text-center mt-3 text-black fw-bold'>NAME</h2>
-            <div className='text-center' style={{background:'black',height:'1px',width:'200px',justifyContent:'center',alignItems:'center'}}></div>
-            <div className='mt-3'>
-              <h3 className='text-center text-black'>work</h3>
-              <h4 className='text-center mt-2 text-black'>City,Place</h4>
-             <div className='d-flex justify-content-center'>
-             <button className='btn btn-success rounded p-2 mt-4' style={{width:'150px'}}>Edit profile</button>
-             </div>
-            </div>
-         </div>
-        </div>
-        </div>
-        <div className="col-md-2"></div>
-      </div> */}
      </div>
    </div>
     </div>
