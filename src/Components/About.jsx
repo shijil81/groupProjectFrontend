@@ -164,7 +164,6 @@ function About() {
         </div>
 
       </div>
-
     </>
   )
 }
