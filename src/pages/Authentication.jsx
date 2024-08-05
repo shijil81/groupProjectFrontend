@@ -5,11 +5,15 @@ import React from 'react'
 import Login from '../Components/Login'
 import CreateAccount from '../Components/CreateAccount'
 
-function Authentication() {
+function Authentication({register}) {
   return (
     <>
-    <Login/>
-    <CreateAccount/>   
+   {register?
+   <div className='my-5'> <CreateAccount/>  </div>
+    
+    :
+    <div className='my-5'><Login/></div>
+     }
     </>
   )
 }
